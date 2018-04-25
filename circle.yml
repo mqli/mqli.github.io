@@ -5,7 +5,7 @@ general:
 
 dependencies:
   override:
-    - npm install
+    - npm install --save
     - npm install -g hexo-cli
 
 deployment:
