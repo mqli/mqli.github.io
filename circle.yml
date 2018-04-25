@@ -14,7 +14,7 @@ dependencies:
 
 deployment:
   production:
-    branch: master
+    branch: release
     commands:
       - git config --global user.name "mqli"
       - git config --global user.email "limanqing315@gmail.com"

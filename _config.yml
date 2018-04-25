@@ -80,6 +80,4 @@ theme: material
 deploy:
   type: git
   repo: https://github.com/mqli/mqli.github.io.git
-  branch: gh-pages
-
   branch: master
