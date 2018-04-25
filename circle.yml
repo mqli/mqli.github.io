@@ -1,6 +1,6 @@
 deployment:
   production:
-    branch: master
+    branch: release
     commands:
       - git config --global user.name "CircleCI"
       # - git config --global user.email "noone@okcsharp.net"
