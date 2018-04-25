@@ -2,6 +2,12 @@ general:
   branches:
     only:
       - release
+
+dependencies:
+  override:
+    - npm install
+    - npm install -g hexo-cli
+    
 deployment:
   production:
     branch: release
