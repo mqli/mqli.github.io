@@ -1,3 +1,7 @@
+general:
+  branches:
+    only:
+      - release
 deployment:
   production:
     branch: release
